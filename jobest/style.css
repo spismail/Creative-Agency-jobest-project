@@ -1,0 +1,523 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body h2{
+    font-family: 'Poppins', sans-serif;
+    color: #112d58;
+    font-size: 40px;
+}
+body p{ 
+ font-family: 'Rubik', sans-serif;
+ color: #1f3a6367;
+}
+
+.benner{ 
+    height: 145vh;
+    width: 100%; 
+    background-image: url("./asset/header.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 100px;
+
+}
+.container{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 10px;
+
+}
+.nav_bar{
+   
+    padding: 10px;
+    
+    
+}
+
+.nav_bar ul li{
+    display: inline;
+ list-style: none;
+  margin: 0 10px ;
+  font-weight: bold;
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.Sign{
+    width: 90px;
+    padding: 5px;
+    background-color: #1c427e;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+
+
+
+
+/************************** hero-section***********************************/
+
+
+.hero_area{
+ margin-top: 15%;
+ padding: 20px;
+ margin-left: 18%;
+ 
+ 
+}
+.hero_area h1{
+    font-size: 60px;
+    color: #112d58;
+}
+
+.serach_bar{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(66, 61, 61, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    
+}
+
+.serach_bar input[type="text"]{
+   background: transparent;
+   flex: 1;
+   border: 0;
+   outline: none;
+   padding: 24px 20px;
+    
+    
+}
+
+
+    
+
+.serach_bar button img{
+    width: 60px;
+}
+
+.serach_bar button{
+   border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background:  rgba(66, 61, 61, 0.2);
+    cursor: pointer;
+
+
+}
+
+.side{
+    margin-top: 40px;
+}
+.main_section{
+     width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.main_section h2{
+     font-size: 46px;
+     color: #112d58;
+}
+
+.main_section_02{
+    width: 80%;
+    text-align: center;
+    margin-left: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.main_section_02 h2{
+    font-size: 46px;
+    color: #112d58;
+}
+
+
+
+/***********************job section **********************/
+
+
+
+
+
+
+
+.job_section1 img {
+    width: 300px;
+    height: 420px;
+    float:right;
+    position: relative;
+    
+   
+}
+.job_section{
+       padding: 10px;
+        margin-top: 190px;
+        text-align: center;
+    
+
+}
+.job_section h2{
+    font-size: 40px;
+    color: #112d58;
+}
+
+.wrapper{
+    width: 80%;
+    padding: 30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color:#112d58;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+
+
+.wrap{
+    width: 350px;
+    height: 350px;
+    margin: 60px;
+    box-shadow: 5px 5px 5px 5px #c2e0eb;
+    border-radius: 20px;
+    padding: 80px;
+    
+}
+.wrap_2{
+    width: 350px;
+    height: 400px;
+    margin: 60px;
+    box-shadow: 5px 5px 5px 5px #c2e0eb;
+    border-radius: 20px;
+    padding: 80px;
+    background-color: #52aff8;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.wrap_2 p{
+    color: #fff;
+}
+.wrapper h4{
+ font-size: 18px;
+ padding: 3px;
+ margin: 5px 0px 0px 0px;
+}
+
+
+/******************************brand section**************************************/
+.brand{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.brand_logo{
+    padding: 3px;
+    margin: 10px;
+   position: relative;
+ }   
+
+
+.brand_logo img{
+    
+    box-shadow: 3px 10px #e2effa;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+   
+
+}
+.samsum{
+    width: 100%;
+    margin: 30px;
+    right: 40px;
+    position: relative;
+}
+.wordpress{
+    top:10px;
+    right: 10px;
+}
+.master{
+ position: absolute;
+ top: 10px;
+ right: 30px;
+}
+.instagrem{
+    position: absolute;
+    top: 210px;
+    right: 330px;
+    
+}
+.red_bull{
+    position: absolute;
+    right: 300px;
+    top: 60px;
+}
+.ford{
+    position: absolute;
+    top: 360px;
+    right: 100px;
+}
+.cocacola{
+    position: absolute;
+    top: 100px;
+    left:250px;
+}
+.mitsumishi{
+    position: absolute;
+    top: 280px;
+    left: 230px;
+}
+.vodafone{
+    position: absolute;
+    top: 220px;
+    left: 190px;
+}
+.coffee{
+    position: absolute;
+    top:330px;
+    right: 250px;
+}
+
+
+   .brand_title h2{
+        font-size: 40px;
+        color: #112d58
+
+    }
+   
+    /*********************Main prat 04*****************************/
+    .main_bg{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        margin-top: 30px;
+        
+    }
+
+     .main_bg0{
+        position: absolute;
+        left: 30%;
+       top: 160px;
+    
+      
+    }
+
+    .main_bg3{
+     float: left;
+     position: absolute;
+     top: 340px;
+    }
+    .main_bg1{
+        position: absolute;
+        float: right;
+        top: 280px;
+        right: 0;
+    }   
+.main_bg_title{
+    padding: 20px;
+    text-align: center;
+    color: #112d58;
+    margin: 10px;
+}
+  /*********************** Testimonials***************************/
+
+    .Testimonials{
+        display: flex;
+        justify-content: space-around;
+        font-size: 32px;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .Testimonials01{
+        width: 100%;
+        height: 500px;
+
+    }
+
+
+    .wrapper_card_test{
+        width: 80%;
+        height: 280px;
+        display: flex; 
+        justify-items: center;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        
+        
+        
+    }
+ 
+
+
+ 
+
+    .box{   width:260px;
+            box-shadow: 3px 5px 8px 8px #c2e0eb;
+            border-radius: 10px;
+            position: relative;
+          
+    }
+    .box1{
+          width: 260px;
+          box-shadow: 3px 5px 8px 8px #c2e0eb;
+          border-radius: 10px;
+          position: relative;
+    
+    }
+    .box2{
+        width: 260px;
+        box-shadow: 3px 5px 8px 8px #c2e0eb;
+        border-radius: 10px; 
+        
+        position: relative;
+    }
+
+     .wrapper_card_test p{
+        margin: 10px;
+
+    }
+    .profile_img{
+        position: absolute;
+        bottom: 220px;
+        left: 80px;
+
+    }
+    .profile_img1{
+        position: absolute;
+        bottom: 220px;
+        left: 80px;
+
+    }
+    .profile_img2{
+        position: absolute;
+        bottom: 220px;
+        left: 80px;
+
+    }
+
+
+    /*********************** Footer section stared***************************/
+    footer{
+        width: 100%;
+        height: 1100px;
+        background-image: url("./asset/footer.png");
+        position: relative;
+        
+    }
+    .footer_section{
+        padding: 10px;
+    }
+
+    .email{
+        width: 80%;
+        margin-top: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
+        margin-left: 2%;
+        flex-wrap: wrap;
+    }
+    .email h3{
+        font-size: 42px;
+        color: #fff;
+        font-weight: bold;
+    }
+   .mail input[type="text"]{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px 0  0 5px;
+    border: none;
+
+   }
+   .mail button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #1c427e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 0  5px 5px 0px;
+   }
+
+
+
+
+
+
+
+    .footer_section01
+    {   
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+        color: #fff;
+        margin-top: 50px;
+        margin-left: 10%;
+        flex-wrap: wrap;
+
+    }
+    
+
+
+    .footer_section01 ul li
+    {
+      list-style: none;
+      padding: 5px;
+    }
+    
+    .footer_section01 ul li a
+    {
+     text-decoration: none;
+     color: #fff;
+    }
+    .icon{
+        
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+    
+    }
+    .icon img{
+        
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        background-color: #1c427e;
+        border-radius: 50%;
+        margin: 20px;
+        cursor: pointer;
+    }
